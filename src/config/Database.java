@@ -5,14 +5,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String HOST = "76.13.88.26";
+    private static final String HOST = "+++++++";
     private static final String PORT = "3306";
-    private static final String DB_NAME = "u674868201_netflix";
+    private static final String DB_NAME = "++++++";
 
     private static final String URL = "jdbc:mysql://" + HOST + ":" + PORT + "/" + DB_NAME;
 
-    private static final String USER = "u674868201_lucasjava";
-    private static final String PASSWORD = "Lucas30230107";
+    private static final String USER = "+++++";
+    private static final String PASSWORD = "+++++++";
 
     public static Connection getConnection() throws SQLException {
         try {
